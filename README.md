@@ -1,6 +1,7 @@
 # DataBases_E-Commerce_Proj
 
-Weak Entities   - OrderItems (SubType) "\n"
+Weak Entities   - OrderItems (SubType)
+
 Strong Entities - Users
                 - Order (SuperType)
                 - Reviews
