@@ -2,8 +2,9 @@
 
 <h3>Weak Entities</h3>   - OrderItems
 
-<h3>Strong Entities</h3> - Users
-
+<h3>Strong Entities</h3> 
+                - Users
+                
                 - Order 
                 
                 - Reviews
