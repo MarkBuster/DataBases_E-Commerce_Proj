@@ -22,6 +22,6 @@
 
 <h3>Subtype/Sypertype Relationship</h3>
 
-OrderItems - SubType
+- OrderItems - SubType
 
-Order      - SuperType
+- Order      - SuperType
