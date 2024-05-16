@@ -1,8 +1,8 @@
 # DataBases_E-Commerce_Proj
 
-Weak Entities   - OrderItems
+<h3>Weak Entities</h3>   - OrderItems
 
-Strong Entities - Users
+<h3>Strong Entities</h3> - Users
 
                 - Order 
                 
@@ -16,7 +16,8 @@ Strong Entities - Users
                 
                 - Shipment
 
-Subtype/Sypertype Relationship
+<h3>Subtype/Sypertype Relationship</h3>
 
 OrderItems - SubType
+
 Order      - SuperType
