@@ -3,19 +3,19 @@
 <h3>Weak Entities</h3>   - OrderItems
 
 <h3>Strong Entities</h3> 
-                - Users
+                         - Users
                 
-                - Order 
+                         - Order 
                 
-                - Reviews
+                         - Reviews
                 
-                - OrderHistory
+                         - OrderHistory
                 
-                - Products
+                         - Products
                 
-                - Inventory
+                         - Inventory
                 
-                - Shipment
+                         - Shipment
 
 <h3>Subtype/Sypertype Relationship</h3>
 
