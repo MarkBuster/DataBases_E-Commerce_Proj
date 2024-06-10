@@ -121,4 +121,24 @@ END;
 //
 DELIMITER ;
 
+
+DELIMITER //
+CREATE PROCEDURE search_products_by_category (IN category_name VARCHAR(255))
+BEGIN
+  SELECT *
+  FROM Products
+  WHERE Category = category_name;
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE get_product_by_id (IN product_id INT)
+BEGIN
+  SELECT *
+  FROM Products
+  WHERE ProductID = product_id;
+END //
+DELIMITER ;
+
+
 -- drop database off_the_beaten_path; 
