@@ -42,9 +42,16 @@ WHERE ProductID = 11;
 DELETE Inventory
 FROM Inventory
 JOIN Products ON Inventory.ProductID = Products.ProductID
-WHERE Products.ProductID = 11
-  AND Products.ProductName = 'Running Shoes'
-  AND Products.Brand = 'Nike';
+WHERE Products.ProductID = 12
+  AND Products.ProductName = 'test'
+  AND Products.Brand = '';
+  
+  -- 4. Delete a product from inventory
+DELETE Products
+FROM Products
+WHERE ProductID = 12
+  AND ProductName = 'test'
+  AND Brand = '';
 
 -- 5. Get a list of the most popular products for a given time range
 SELECT 
